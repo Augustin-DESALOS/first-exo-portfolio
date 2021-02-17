@@ -1,0 +1,101 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  img {
+    width: 75px;
+    height: 75px;
+  }
+  h1 {
+    font-size: x-small;
+  }
+  ul {
+    flex-direction: column !important;
+  }
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: normal;
+  background-image:url(images/fond.png);
+  background-attachment: fixed;
+}
+
+h1 {
+  color: black;
+  font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: x-large;
+}
+
+h2 {
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: medium;
+  line-height: normal;
+}
+
+a:hover {
+  color: white;
+}
+
+a {
+  text-decoration: brown;
+  color: black;
+}
+
+img {
+  border-radius: 50%;
+  box-shadow: 5px 5px 3px grey;
+  border: 1px solid black;
+}
+
+.white-card {
+  margin: 20px;
+  padding: 20px;
+  background-color: rgb(242,224,201,.8);
+  box-shadow: 3px 3px 25px grey;
+  border-radius: 8px;
+}
+
+.container {
+  text-align: center;
+  margin: 0 auto;
+  width: 50vw;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-position: inside;
+  padding: 0;
+}
+
+li {
+  margin: 10px;
+  font-size: 65px;
+  padding: 5px;
+}
+
+.button {
+  border: 2px solid rgb(226,122,63);
+  border-radius: 16px;
+  padding: 10px;
+  background-color:rgb(246,232,177);
+}
